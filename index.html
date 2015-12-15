@@ -13,8 +13,9 @@
 	</script>
 </head>
 <body>
-<form class="group" action="" method="">
+<form class="group" action="survey_insert.php" method="POST">
 	<ol>
+	<!--
 						DO NOT ALTER THE HTML WHICH IS ALREADY ON THIS PAGE <br>
 
 						ADD INPUT BOXES FOR THE FOLLOWING DATA <br><br>
@@ -26,13 +27,38 @@
 	Mmajor  <br>
 	Course  <br>
 	Advisor  <br><br>
+	-->
+	
+	<label>User Name: </label><br>
+	<input name= "username" type="text" autofocus required value="" placeholder=" User Name"> <br><br>
+	
+	<label>User ID: </label><br>
+	<input name= "userid" type="text" required value="" placeholder=" User ID"> <br><br>
+	
+	<label>First Name: </label><br>
+	<input name= "firstname" type="text" required value="" placeholder=" First Name"> <br><br>
 
+	<label>Last Name: </label><br>
+	<input name="lastname" type="text" maxlength="30" required placeholder=" Last Name"> <br><br>
+
+	<label>Email: </label><br>
+	<input name="email" type="email" required placeholder=" Email"><br><br>
+	
+	<label>Major: </label><br>
+	<input name="major" type="text" maxlength="30" required placeholder=" Major"> <br><br>
+	
+	<label>Course: </label><br>
+	<input name="course" type="text" maxlength="30" required placeholder=" Course"> <br><br>
+	
+	<label>Advisor: </label><br>
+	<input name="advisor" type="text" maxlength="30" required placeholder=" Advisor"> <br><br>
+	
+	<!--
 	WRITE A SQL SCRIPT (survey.sql} TO CREATE A TABLE TO INSERT THE DATA <br><br>
 
 	WRITE A PHP SCRIPT {survey.php} TO PROCESS THE FORM DATA AND INSERT IT INTO THE DATABASE
+	-->
 
-
-<!-- Delete this comment tag when you have finished adding the input boxes
 		<li class="group">
 			<label for="slider">Programming Experience - Years</label>
 			<input id="slider" type="range" min="0" max="10" step="1" value="2" onchange="printValue('slider','rangeValue')" />
@@ -46,8 +72,9 @@
 			<input type="date" name="date" id="datefield" />
 		</li>
 	</ol>
-<button type="submit">send</button>
-Delete this comment tag when you have finished adding the input boxes -->
+	<button type="submit">send</button>
+
+
 </form>
 
 <script>
