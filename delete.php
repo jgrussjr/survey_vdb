@@ -39,7 +39,10 @@
 		<script src="scripts/jquery-1.8.2.min.js"></script>
 	</head>
 <body>
-
+<?php
+require_once('navbar.html');
+?>
+	<article id="article_one" style="position: absolute; left: 420px; top: 70px; width: 315px; height: 550px; z-index: 2">
 	<form method="post" action="delete.php?id=<?php echo $_REQUEST['id'];?>">
     	<h1>Delete Survey Record</h1>
     	<p>Are you sure you want to delete this survey record?</p>
@@ -64,5 +67,6 @@
     	<input type="submit" name="submit" value="Yes, Delete" />
 		
     </form>
+	</article>
 </body>
 </html>

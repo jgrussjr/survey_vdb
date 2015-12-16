@@ -3,7 +3,6 @@ ini_set("display_errors","on");
 require_once('includes/connection.inc.php');
 
 $selected = $_REQUEST["id"];
-echo $selected;
 //$dbc = dbConnect('local');
 $dbc = dbConnect();
 $sql = "select * from survey_tbl where id = '" . $_GET['id'] . "'";
@@ -58,10 +57,13 @@ while ($row = $result->fetch_assoc())
 </head>
 
 <body>
+<?php
+require_once('navbar.html');
+?>
 <section>
 
 <div id="section_articleOneIdentifier" class="sectionOne" /></div>
-<article id="article_one" style="position: absolute; left: 420px; top: 10px; width: 315px; height: 550px; z-index: 2">
+<article id="article_one" style="position: absolute; left: 420px; top: 70px; width: 315px; height: 550px; z-index: 2">
 
 
 <form class="group" method="POST" action="edit.php?id=<?php echo $_REQUEST["id"]?>">

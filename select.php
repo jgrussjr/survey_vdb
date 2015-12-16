@@ -19,7 +19,7 @@ require_once('navbar.html');
 <h1>All Survey Results</h1>
 <table>
     <tr>
-<th>ID</th><th>User Name</th><th>User ID</th><th>First Name</th><th>Last Name</th><th>Email</th><th>Major</th>
+<th>DB ID</th><th>User Name</th><th>User ID</th><th>First Name</th><th>Last Name</th><th>Email</th><th>Major</th>
 <th>Course</th><th>Advisor</th><th>Programming Experience</th><th>Gannon Start Date</th><th>Edit</th><th>Delete</th>
 </tr>
 <?php

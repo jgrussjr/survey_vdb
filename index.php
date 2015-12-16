@@ -24,7 +24,7 @@ require_once('navbar.html');
 						DO NOT ALTER THE HTML WHICH IS ALREADY ON THIS PAGE <br>
 						ADD INPUT BOXES FOR THE FOLLOWING DATA <br><br>
 	-->
-	
+	<li>
 	<label>User Name: </label><br>
 	<input name= "username" type="text" autofocus required value="" placeholder=" User Name"> <br><br>
 	
@@ -48,26 +48,21 @@ require_once('navbar.html');
 	
 	<label>Advisor: </label><br>
 	<input name="advisor" type="text" maxlength="30" required placeholder=" Advisor"> <br><br>
-	
-	<!--
-	WRITE A SQL SCRIPT (survey.sql} TO CREATE A TABLE TO INSERT THE DATA <br><br>
-
-	WRITE A PHP SCRIPT {survey.php} TO PROCESS THE FORM DATA AND INSERT IT INTO THE DATABASE
-	-->
+	</li>
 
 		<li class="group">
 			<label for="slider">Programming Experience - Years</label>
-			<input id="slider" type="range" min="0" max="10" step="1" value="2" onchange="printValue('slider','rangeValue')" />
+			<input id="slider" type="range" min="0" max="10" step="1" value="5" onchange="printValue('slider','rangeValue')" />
 
 	        <input id="rangeValue" type="text" name="size" size=""/>
 		</li>
-
 
 		<li class="group">
 			<label for="datefield">Gannon Start Date</label>
 			<input type="date" name="date" id="datefield" />
 		</li>
 	</ol>
+	<p></p>
 	<button type="submit">send</button>
 
 
