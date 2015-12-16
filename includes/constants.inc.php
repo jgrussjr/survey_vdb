@@ -9,5 +9,5 @@
     define("DB_NAME", "db_gruss001"); // default database implementation
 	
 //globally change local/remote settings here.
-	define("DB_SERVER_IN_USE", "local");
+	define("DB_SERVER_IN_USE", "remote");
 ?>
