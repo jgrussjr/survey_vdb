@@ -18,17 +18,18 @@ th, td {
 }
 
 div.myframe {
-  width:85%;
+  width:90%;
   padding: 10px 10px;
 }
 
 iframe.myframe {
 	text-align:center;
-	width: 90%;
+	width: 98%;
 	height: 100%;
 }
 
 div.outerframe {
 	padding: 10px 10px;
+	text-align:center;
 }
 

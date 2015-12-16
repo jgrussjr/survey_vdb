@@ -20,7 +20,7 @@ First, upload the sql file to you database manager (phpmyadmin). If database nam
 to ensure usability. Next, set database connection options in "includes/". If the sql file is uploaded in its default state,
 one should only need to change "constants.inc.php". Most basically, to connect to a local server, define 
 DB_SERVER_IN_USE as "local". To use remote settings, define as "remote". Other changes beyond this scope can be made using this 
-file in conjuction with changes to "connection.inc.php". After this is accomplished and the site is sitting on a usable server 
+file in conjunction with changes to "connection.inc.php". After this is accomplished and the site is sitting on a usable server 
 of sorts, it should be ready to use. 
 
 Notable Changes:
