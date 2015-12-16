@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Student Survey</title>
-	<link rel="stylesheet" href="normalize.css" />
-	<link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
 	<script src="scripts/jquery-1.8.2.min.js"></script>
 	<script src="//cdn.jsdelivr.net/webshim/1.14.5/polyfiller.js"></script>
 	<script>
@@ -13,20 +13,16 @@
 	</script>
 </head>
 <body>
-<form class="group" action="survey_insert.php" method="POST">
+
+<?php
+require_once('navbar.html');
+?>
+
+<form class="group" action="insert.php" method="POST">
 	<ol>
 	<!--
 						DO NOT ALTER THE HTML WHICH IS ALREADY ON THIS PAGE <br>
-
 						ADD INPUT BOXES FOR THE FOLLOWING DATA <br><br>
-	User Name <br>
-	User Id <br>
-	First Name <br>
-	Last Name <br>
-	Email <br>
-	Mmajor  <br>
-	Course  <br>
-	Advisor  <br><br>
 	-->
 	
 	<label>User Name: </label><br>

@@ -1,6 +1,6 @@
 <?php
 include 'constants.inc.php';
-function dbConnect($usertype = DB_SERVER_ACTIVE, $connectionType = 'mysqli') {
+function dbConnect($usertype = DB_SERVER_IN_USE, $connectionType = 'mysqli') {
 $user = DB_USER;
 $pwd = DB_PASS;
 $db = DB_NAME;
