@@ -8,3 +8,27 @@ th, td {
 	padding-top: 2px;
 	padding-bottom: 2px;
 }
+
+.myframe {
+	margin: auto;
+	border: 0;
+	width: auto;
+	background-color: white;
+	
+}
+
+div.myframe {
+  width:85%;
+  padding: 10px 10px;
+}
+
+iframe.myframe {
+	text-align:center;
+	width: 90%;
+	height: 100%;
+}
+
+div.outerframe {
+	padding: 10px 10px;
+}
+
