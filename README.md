@@ -1,6 +1,7 @@
 # survey_vdb
 Repository for survey assignment for Visual Database Programing, Fall 2015
 This is the documentation file.
+GitHub: https://github.com/jgrussjr/survey_vdb
 
 Purpose: 
 To create a student survey website to demonstrate abilities learned in class.
