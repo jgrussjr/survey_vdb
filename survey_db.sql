@@ -16,7 +16,7 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
--- CREATE DATABASE IF NOT EXISTS db_gruss001;
+CREATE DATABASE IF NOT EXISTS db_gruss001;
 USE db_gruss001;
 --
 -- Table structure for table `survey_tbl`
@@ -24,20 +24,20 @@ USE db_gruss001;
 
 DROP TABLE survey_tbl;
 CREATE TABLE IF NOT EXISTS `survey_tbl` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(7) NOT NULL AUTO_INCREMENT,
   `user_name` varchar(30) NOT NULL,
   `user_id` varchar(30) NOT NULL,
-  `first_name` varchar(30) DEFAULT NULL,
-  `last_name` varchar(30) DEFAULT NULL,
+  `first_name` varchar(50) DEFAULT NULL,
+  `last_name` varchar(50) DEFAULT NULL,
   `email` varchar(50) DEFAULT NULL,
-  `major` varchar(30) DEFAULT NULL,
-  `course` varchar(30) DEFAULT NULL,
-  `advisor` varchar(30) DEFAULT NULL,
-  `experience` varchar(11) DEFAULT NULL,
-  `date_value` varchar(30) DEFAULT NULL,
+  `major` varchar(50) DEFAULT NULL,
+  `course` varchar(50) DEFAULT NULL,
+  `advisor` varchar(50) DEFAULT NULL,
+  `experience` varchar(2) DEFAULT NULL,
+  `date_value` varchar(11) DEFAULT NULL,
   
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 --
 -- Dumping data for table `survey_tbl`
